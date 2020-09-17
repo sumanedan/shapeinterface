@@ -1,0 +1,11 @@
+
+<form class="form-group">
+    <h6 style="color: lightcoral;text-decoration-line: underline;text-decoration-color: royalblue;">SELECT SHAPE</h6><br>
+    <select class="form-control form-group" (click)="choice=$event.target.value;enter(choice)">
+        <option>Rectangle</option>
+        <option>Circle</option>
+        <option>Square</option>
+    </select>
+</form>
+<canvas id="myCanvas" width="900" height="450" style="border:1px solid #000000;background-color:ivory;margin-top:30px;margin-left:200px">
+</canvas>
